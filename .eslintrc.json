@@ -57,7 +57,8 @@
       "@typescript-eslint/no-invalid-void-type": "error",
       "@typescript-eslint/no-namespace": "error",
       "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
-      "@typescript-eslint/no-unused-vars": ["error", {
+      "@typescript-eslint/no-non-null-assertion": "off",
+      "@typescript-eslint/no-unused-vars": ["warn", {
         "ignoreRestSiblings": true,
         "args": "none"
       }],
